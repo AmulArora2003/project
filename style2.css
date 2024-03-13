@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    
+
+}
+.border{
+    border-radius: 100px;
+    color: blue;
+
+
+}
+.display{
+    display: flex;
+}
+.head{
+    height: 9vh;
+    background-color: black;
+    /* color: antiquewhite; */
+    
+}
+.logo{
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+.search{
+    height: 40vh;
+    width: 103%;
+    
+    background-color: antiquewhite;
+    
+}
+.form{
+    background-color: brown;
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    margin: 25px;
+    word-spacing: 10px;
+    
+}
+.form button{
+    color:black;
+    background-color:transparent;
+    width: 7%;
+    height: 25%;
+    position: absolute; 
+    border-radius: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+
+}
+.form button:hover{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.details{
+    background-color: red;
+    width: 25%;
+    height: 40vh;
+    margin-left: 10px;
+    /* position: relative; */
+
+
+    /* position: relative;
+    margin: 20px;
+     */   
+}
+.detail{
+    height: 40vh;
+    width: 38%;
+}
+.receipt{
+    padding-top: 70px; 
+}
+.form2{
+    background-color: blueviolet;
+    /* display: flex; */
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    margin:25px;
+    word-spacing: 10px;
+
+    
+}
+.form2 button{
+    background-color:aquamarine;
+    color: black;
+    width: 20vh;
+    height: 40%;
+    border-radius: 30%;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.led{
+    display: flex;
+}
+.ledger{
+    background-color:rgb(255, 145, 2);
+    width: 80%;
+    height: 45vh;
+    margin-top: 10px;
+    position: absolute;
+    align-items: center;
+    
+    
+    
+}
+.ledger table{
+    border-spacing: 20px;
+    align-items: center;
+}
+
+
+.previous{
+    background-color: red;
+    /* display: flex; */
+    height: 45vh;
+    width: 20%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 80.5%;
+
+
+    
+}
